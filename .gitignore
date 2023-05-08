@@ -1,0 +1,5 @@
+.config/oura.json
+.config/wakatime.json
+*.xlsx
+*.pyc
+*.env

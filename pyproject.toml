@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "anatomyofflow"
+version = "0.1.0"
+description = "Visualization of hyperfixation"
+authors = ["skewballfox <joshua.ferguson.273@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.28.2"
+polars = "^0.17.2"
+aw-client = "^0.5.11"
+python-dotenv = "^1.0.0"
+plotly = "^5.14.1"
+bokeh = "^3.1.0"
+altair = "^4.2.2"
+pyarrow = "^11.0.0"
+rauth = "^0.7.3"
+oura = "^1.2.4"
+xlsxwriter = "^3.1.0"
+pytz = "^2023.3"
+nbformat = "^5.8.0"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.22.0"
+black = {version="^23.3.0", extras=["jupyter"]}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

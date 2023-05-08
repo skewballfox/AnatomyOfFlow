@@ -1,0 +1,5 @@
+{
+    "app_id": "MY_WAKATIME_APP_ID",
+    "app_secret": "MY_WAKATIME_APP_SECRET",
+    "redirect_uri": "https://wakatime.com/oauth/test"
+}
