@@ -8,7 +8,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-requests = "^2.28.2"
+requests = "^2.31.0"
 polars = "^0.17.2"
 aw-client = "^0.5.11"
 python-dotenv = "^1.0.0"
